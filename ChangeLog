@@ -1,3 +1,7 @@
+2015-10-05 Stephen Gallagher <sgallagh@redhat.com>
+    [BZ #19072=
+	* Implement https://sourceware.org/glibc/wiki/Proposals/GroupMerging
+
 2015-10-05  Joseph Myers  <joseph@codesourcery.com>
 
 	[BZ #19071]

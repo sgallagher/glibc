@@ -31,12 +31,15 @@ endif
 # To find xmalloc.c
 vpath %.c ../locale/programs
 
+# To find grp-merge.c
+vpath %.c ../grp
+
 nscd-modules := nscd connections pwdcache getpwnam_r getpwuid_r grpcache \
 		getgrnam_r getgrgid_r hstcache gethstbyad_r gethstbynm3_r \
 		getsrvbynm_r getsrvbypt_r servicescache \
 		dbg_log nscd_conf nscd_stat cache mem nscd_setup_thread \
 		xmalloc xstrdup aicache initgrcache gai res_hconf \
-		netgroupcache
+		netgroupcache grp-merge
 
 ifeq ($(build-nscd)$(have-thread-library),yesyes)
 
